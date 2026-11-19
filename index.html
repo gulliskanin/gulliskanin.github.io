@@ -14,8 +14,29 @@
 function myFunction() {
   let person = prompt("Skriv in det (krypterade) namnet", "jsdgf5");
   if (person != null) {
+    if (person == "KGISRPEZ"){
+      dekryp = "Filip"
+    }
+    else if (person == "DSVFYRYG"){
+      dekryp = "Einar"
+    }
+    else if (person == "YUCLISEF"){
+      dekryp = "William"
+    }
+    else if (person == "GFSCONGR"){
+      dekryp = "Valentin"
+    }
+    else if (person == "TPPFCVCG"){
+      dekryp = "Ronja"
+    }
+    else if (person == "EGGCVFIS"){
+      dekryp = "Aslan"
+    }
+    else {
+      dekryp = "du gjorde fel : ("
+    }
     document.getElementById("demo").innerHTML =
-    "Hello " + person + "! How are you today?";
+    "Din person är " + dekrypt + "!";
   }
 }
 
